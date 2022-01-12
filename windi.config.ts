@@ -6,4 +6,8 @@ export default defineConfig({
    * @see https://windicss.org/features/attributify.html
    */
   attributify: true,
+  extract: {
+    include: ['**/*.{vue,html,jsx,tsx}'],
+    exclude: ['node_modules', '.git'],
+  },
 })
