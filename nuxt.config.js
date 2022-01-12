@@ -57,6 +57,8 @@ export default {
       dirs: ['./'],
       exclude: [
         'node_modules',
+        'node_modules_dev',
+        'node_modules_prod',
         'dist',
       ],
     },
