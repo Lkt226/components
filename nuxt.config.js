@@ -52,4 +52,13 @@ export default {
       '~/projects',
     ]
   },
+  windicss: {
+    scan: {
+      dirs: ['./'],
+      exclude: [
+        'node_modules',
+        'dist',
+      ],
+    },
+  },
 }
